@@ -18,13 +18,13 @@ Construction site-level facilities layout is an important activity in site plann
 
 In this implementation, a construction site-level facility layout problem is described as allocating a set of predetermined facilities into a set of predetermined places, while satisfying layout constraints and requirements. The **Ant Colony Optimization (ACO)** algorithm is used to determine the optimal allocation of facilities to locations on the site that **minimizes the total traveling distance of site personnel between facilities**.
 
-> <p><b>**Reference Paper: Heng Li & Peter E. D. Love - <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%290887-3801%281998%2912%3A4%28227%29" style="text-decoration: none;"><i>Site-Level Facilities Layout Using Genetic Algorithms</i></a></b></p>
+> <p><b>Reference Paper: Heng Li & Peter E. D. Love - <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%290887-3801%281998%2912%3A4%28227%29" style="text-decoration: none;"><i>Site-Level Facilities Layout Using Genetic Algorithms</i></a></b></p>
 
 ---
 
 **Optimum Solution:**
 
-The optimum solution -- representIng Facility@Location-pair information -- found was **[ 9 11 5 6 7 2 4 1 3 8 10 ]** i.e.:
+The optimum solution -- representIng Facility@Location-pair information -- found was **[ 9 11 5 6 7 2 4 1 3 8 10 ]** i.e.
 
 > **[ F1@L9 , F2@L11 , F3@L5 , F4@L6 , F5@L7 , F6@L2 , F7@L4 , F8@L1 , F9@L3 , F10@L8 , F11@L10 ]**
 
