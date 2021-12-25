@@ -31,12 +31,12 @@ The optimum solution -- representIng Facility@Location-pair information -- found
 
 The solution was arrived at after 33 iterations with an ant colony population size of 50. The figure below shows that the pheromone matrix values (left) and normalized pheromone weights and best (optimum) solution (right) at iteration 33.
 
-<a><img src="https://github.com/Outsiders17711/Site-Layout-Ant-Colony-Optimization/blob/master/resources/Optimum-Solution.jpg?raw=true" title="Best Solution & Pheromone Weights" alt="Best Solution & Pheromone Weights" style="width:1000px;"></a>
+<a><img src="https://github.com/Outsiders17711/Site-Layout-Ant-Colony-Optimization/blob/main/resources/Optimum-Solution.jpg?raw=true" title="Best Solution & Pheromone Weights" alt="Best Solution & Pheromone Weights" style="width:1000px;"></a>
 
 
 **Best Solution & Pheromone Weights Across Iterations:**
 
-<a><img src="https://github.com/Outsiders17711/Site-Layout-Ant-Colony-Optimization/blob/master/resources/printPheromoneWeights-33-Iterations.gif?raw=true" title="Best Solution & Pheromone Weights Across Iterations" alt="Best Solution & Pheromone Weights Across Iterations" style="width:600px;"></a>
+<a><img src="https://github.com/Outsiders17711/Site-Layout-Ant-Colony-Optimization/blob/main/resources/printPheromoneWeights-33-Iterations.gif?raw=true" title="Best Solution & Pheromone Weights Across Iterations" alt="Best Solution & Pheromone Weights Across Iterations" style="width:600px;"></a>
 
 <!-- add link to post -->
 <!-- There is a walkthrough of the code implementation on my blog. You can check it out **[here]()**. -->
