@@ -20,16 +20,13 @@ In this implementation, a construction site-level facility layout problem is des
 
 > <p><b>**Reference Paper: Heng Li & Peter E. D. Love - <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%290887-3801%281998%2912%3A4%28227%29" style="text-decoration: none;"><i>Site-Level Facilities Layout Using Genetic Algorithms</i></a></b></p>
 
-<br>
+---
 
 **Optimum Solution:**
 
-The optimum solution -- representIng Facility@Location-pair information -- found was:
+The optimum solution -- representIng Facility@Location-pair information -- found was **[ 9 11 5 6 7 2 4 1 3 8 10 ]** i.e.:
 
-> 
-> [ 9 11 5 6 7 2 4 1 3 8 10 ]
-> 
-> [ F1@L9 , F2@L11 , F3@L5 , F4@L6 , F5@L7 , F6@L2 , F7@L4 , F8@L1 , F9@L3 , F10@L8 , F11@L10 ]
+> **[ F1@L9 , F2@L11 , F3@L5 , F4@L6 , F5@L7 , F6@L2 , F7@L4 , F8@L1 , F9@L3 , F10@L8 , F11@L10 ]**
 
 
 The solution was arrived at after 33 iterations with an ant colony population size of 50. The figure below shows that the pheromone matrix values (left) and normalized pheromone weights and best (optimum) solution (right) at iteration 33.
