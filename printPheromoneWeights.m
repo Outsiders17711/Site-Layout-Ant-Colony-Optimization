@@ -9,11 +9,6 @@ end
 normPheromoneMatrix = zeros(size(pheromoneMatrix));
 [nLocations, nFacilities] = size(pheromoneMatrix);
 
-% scale the data around the sum [the total of each row equals 1]
-% for i = 1:nLocations
-%     normPheromoneMatrix(i,:) = pheromoneMatrix(i,:)/sum(pheromoneMatrix(i,:));
-% end
-
 % normalize the data using min-max scaling [each entry has a min-max value of 0-1]
 for i = 1:nLocations
     normPheromoneMatrix(i,:) = pheromoneMatrix(i,:) - min(pheromoneMatrix(i,:));

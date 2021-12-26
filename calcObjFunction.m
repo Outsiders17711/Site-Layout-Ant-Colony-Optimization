@@ -47,11 +47,10 @@ for idx = 1:nPopulation
     end
     popFitnesses(idx) = sum(sum(distXfreq));
 end
-% sortedPopulation = population;
 
 if nPopulation > 1
     temp = [population, popFitnesses];
-    temp = sortrows(temp, nLocations+1); % sortrows(temp, -1);
+    temp = sortrows(temp, nLocations+1);
     sortedPopulation = temp(:, 1:nLocations); 
     popFitnesses = temp(:, nLocations+1);
 end

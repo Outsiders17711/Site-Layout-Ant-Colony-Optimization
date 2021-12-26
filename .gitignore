@@ -1,0 +1,4 @@
+# my additions
+*/.ipynb_checkpoints/*
+**/*.ipynb_checkpoints/
+.vscode

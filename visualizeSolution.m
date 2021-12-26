@@ -4,7 +4,6 @@ function visualizeSolution(solution, facility)
 
 if nargin < 1
     solution = [9 11 5 6 7 2 4 1 3 8 10]; % optimum solution
-    % solution = [11 5 8 7 2 9 3 1 6 4 10]; % papers's optimum solution
     facility = 3;
 end
 
@@ -51,7 +50,6 @@ for i = 1:length(solution)
     else
         t_freqs(solution(i)) = facilitiesFrequenciesMatrix(facility, i);
     end
-    % y_ticklabels{solution(i)} = sprintf("F%02d-L%02d", i, solution(i));
     y_labels{solution(i)} = sprintf("L%02d", solution(i));
     y_texts{solution(i)} = sprintf("[ F%02d ]", i);
 end
@@ -64,17 +62,6 @@ for i = 1:length(solution)
 end
 clear i; 
 
-% # [>>>>>]____________________________________________________________
-% for n = 1:length(solution)
-%     facility = n;
-%     for i = 1:length(solution)
-%         x_dists(n,i) = locationsDistancesMatrix(solution(facility), i);
-%     end
-% end
-% clear i n
-% bar3(x_dists);
-% # [>>>>>]____________________________________________________________
-
 grid("on");
 ylim([0, 12]); yticks([1:1:11]);
 yticklabels(y_labels); 
@@ -82,7 +69,6 @@ ylabel("Facilities/Locations", 'FontWeight', "bold");
 xlabel("Distances", 'FontWeight', "bold"); 
 title(sprintf("Visualizing Solution: Distances & Frequencies @ Facility %02d", facility));
 set(gcf, 'Position', [90 260 750 400]);
-
 hold off;
 
 end
