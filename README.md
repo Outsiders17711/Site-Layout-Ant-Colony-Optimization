@@ -20,6 +20,10 @@ In this implementation, a construction site-level facility layout problem is des
 
 > <p><b>Reference Paper: Heng Li & Peter E. D. Love - <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%290887-3801%281998%2912%3A4%28227%29" style="text-decoration: none;"><i>Site-Level Facilities Layout Using Genetic Algorithms</i></a></b></p>
 
+<!-- add link to post -->
+There is a post on my blog that provides some more background on the site-level facilities layout. It also contains a walkthrough of the MATLAB code implementation of the ant colony optimization algorithm . You can check it out **[here](https://outsiders17711.github.io/Mein.Platz/Site-Layout-Ant-Colony-Optimization/)**.
+<!-- add link to post -->
+
 ---
 
 **Optimum Solution:**
@@ -37,8 +41,5 @@ The solution was arrived at after 33 iterations with an ant colony population si
 **Best Solution & Pheromone Weights Across Iterations:**
 
 <a><img src="https://github.com/Outsiders17711/Site-Layout-Ant-Colony-Optimization/blob/main/resources/printPheromoneWeights-33-Iterations.gif?raw=true" title="Best Solution & Pheromone Weights Across Iterations" alt="Best Solution & Pheromone Weights Across Iterations" style="width:600px;"></a>
-
-<!-- add link to post -->
-<!-- There is a walkthrough of the code implementation on my blog. You can check it out **[here]()**. -->
 
 ---
