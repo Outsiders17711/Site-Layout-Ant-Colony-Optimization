@@ -20,9 +20,7 @@ In this implementation, a construction site-level facility layout problem is des
 
 > <p><b>Reference Paper: Heng Li & Peter E. D. Love - <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%290887-3801%281998%2912%3A4%28227%29" style="text-decoration: none;"><i>Site-Level Facilities Layout Using Genetic Algorithms</i></a></b></p>
 
-<!-- add link to post -->
-There is a post on my blog that provides some more background on the site-level facilities layout. It also contains a walkthrough of the MATLAB code implementation of the ant colony optimization algorithm . You can check it out **[here](https://outsiders17711.github.io/Mein.Platz/Site-Layout-Ant-Colony-Optimization/)**.
-<!-- add link to post -->
+I also made a **[blog post](https://outsiders17711.github.io/Mein.Platz/blog/Site-Layout-Ant-Colony-Optimization/)** that provides some more background on the site-level facilities layout. It also contains a walkthrough of the MATLAB code implementation of the ant colony optimization algorithm . You can check it out.
 
 ---
 
